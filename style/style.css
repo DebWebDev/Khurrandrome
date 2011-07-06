@@ -47,3 +47,12 @@ header nav a:hover {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff;
   border-radius: 2px;
 }
+footer {
+  bottom: 0;
+  width: inherit;
+  height: 72px;
+  position: absolute;
+  box-shadow: 0 0 20px #000, inset 0 -25px 50px rgba(0,0,0,0.5);
+  background: url(../img/footerBG.jpg) repeat-x;
+  border-top: 2px solid rgba(160,96,8,0.25);
+}
