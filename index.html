@@ -6,35 +6,44 @@
 <style>
 body {
   color: #CCC;
-  background: #000;
-  width: 960px;
+  background: url(img/bodyBG.jpg) repeat;
+  width: 100%;
   margin: auto;
 }
+header {
+  width: inherit;
+  height: 160px;
+  position: absolute;
+  box-shadow: 0 0 20px #000;
+  background: url(img/headerBG.png) repeat-x;
+  border-bottom: 3px solid rgba(192,16,8,0.5);
+}
 header nav {
+  top: 160px;
+  position: absolute;
   width: 100%;
   float: right;
   padding: 10px;
   text-align: right;
-  border-bottom: 1px solid #F33;
 }
-header nav li {
-  display: inline;
+header nav a {
+  color: #CCC;
   padding: 10px 20px;
-  list-style: none;
+  text-decoration: none;
   font: 16px Verdana, Geneva, sans-serif;
 }
-header nav li:hover { color: #333; background: #C33; border-radius: 2px; }
+header nav a:hover { color: #333; background: #C33; border-radius: 2px; }
 </style>
 </head>
 
 <body>
   <header>
     <nav>
-      <li>Home</li>
-      <li>Crew</li>
-      <li>About</li>
-      <li>Downloads</li>
-      <li>Contacts</li>
+      <a href="index.html">Home</a>
+      <a href="crew.html">Crew</a>
+      <a href="about.html">About</a>
+      <a href="downloads.html">Downloads</a>
+      <a href="contacts.html">Contacts</a>
     </nav>
   </header>
 </body>
