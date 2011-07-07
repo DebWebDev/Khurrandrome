@@ -92,3 +92,13 @@ footer {
   background: url(../img/footerBG.jpg) repeat-x;
   border-top: 2px solid rgba(160,96,8,0.25);
 }
+footer p {
+  color: #a96;
+  text-align: center;
+  text-shadow: 0 0 2px #000;
+  font: 10px/20px Verdana, Geneva, sans-serif;
+}
+footer p a {
+  color: #cba;
+  text-decoration: none;
+}
