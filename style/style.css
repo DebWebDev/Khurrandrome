@@ -10,6 +10,7 @@ body {
   color: #CCC;
   background: url(../img/bodyBG.jpg) repeat;
   width: 100%;
+  min-width: 960px;
   margin: auto;
 }
 header {
@@ -19,7 +20,7 @@ header {
 header section {
   width: inherit;
   height: 160px;
-  position: absolute;
+  position: fixed;
   box-shadow: 0 0 20px #000;
   background: url(../img/headerBG.png) repeat-x;
   border-bottom: 1px solid rgba(192,16,8,0.5);
@@ -61,7 +62,7 @@ header nav {
   right: 10%;
   float: right;
   padding: 10px 10px 8px;
-  position: absolute;
+  position: fixed;
   text-align: right;
   box-shadow: 0 0 20px #000;
   text-shadow: 0 0 5px #000, 0 0 10px #000;
@@ -87,7 +88,7 @@ footer {
   bottom: 0;
   width: inherit;
   height: 72px;
-  position: absolute;
+  position: fixed;
   box-shadow: 0 0 20px #000, inset 0 -25px 50px rgba(0,0,0,0.5);
   background: url(../img/footerBG.jpg) repeat-x;
   border-top: 2px solid rgba(160,96,8,0.25);
