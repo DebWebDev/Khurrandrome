@@ -20,6 +20,17 @@ header section {
   border-bottom: 1px solid rgba(192,16,8,0.5);
   z-index: 100;
 }
+header section h1,h2 {
+  margin: 0;
+  right: 10%;
+  position: fixed;
+}
+header section h1 {
+  top: 24px;
+  color: rgba(16,0,0,0.5);
+  text-shadow: 0 0 10px rgba(255,255,255,0.25);
+  font: 80px/96px "Arial Black", Gadget, sans-serif;
+}
 header nav {
   top: 161px;
   right: 10%;
