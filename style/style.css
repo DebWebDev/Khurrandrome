@@ -83,6 +83,24 @@ header nav a:hover {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff;
   border-radius: 2px;
 }
+aside {
+  height: 67%;
+  width: 320px;
+  margin: auto 5%;
+  position: fixed;
+  background: url(../img/teaserLogo.png) 50% no-repeat;
+}
+article {
+  color: #999;
+  width: 640px;
+  float: right;
+  padding: 96px 0;
+  margin-right: 10%;
+  position: relative;
+  font: 12px/20px Verdana, Geneva, sans-serif;
+  text-indent: 80px;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
+}
 footer {
   bottom: 0;
   width: inherit;
