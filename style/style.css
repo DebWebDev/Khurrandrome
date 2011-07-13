@@ -13,6 +13,7 @@ body {
   min-width: 960px;
   margin: auto;
 }
+a { text-decoration: none; }
 header {
   width: inherit;
   height: 160px;
@@ -29,7 +30,6 @@ header section {
 header section a {
   right: 10%;
   position: fixed;
-  text-decoration: none;
 }
 header section a#heading {
   top: 24px;
@@ -71,7 +71,6 @@ header nav {
 header nav a {
   color: #CCC;
   padding: 8px 20px;
-  text-decoration: none;
   font: 16px Verdana, Geneva, sans-serif;
 }
 header nav a:hover {
@@ -92,10 +91,12 @@ article {
   padding: 96px 0;
   margin-right: 10%;
   position: relative;
-  font: 12px/20px Verdana, Geneva, sans-serif;
+  font: 16px/24px Verdana, Geneva, sans-serif;
   text-indent: 80px;
   text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
 }
+article p { vertical-align: middle; }
+article a { color: #c33; }
 footer {
   bottom: 0;
   width: inherit;
@@ -113,5 +114,4 @@ footer p {
 }
 footer p a {
   color: #cba;
-  text-decoration: none;
 }
