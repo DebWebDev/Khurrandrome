@@ -15,7 +15,4 @@ footer p {
   text-shadow: 0 0 2px #000;
   font: 10px/20px Verdana, Geneva, sans-serif;
 }
-footer p a {
-  color: #cba;
-  text-decoration: none;
-}
+footer a { color: #cba; }

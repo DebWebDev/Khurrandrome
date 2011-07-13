@@ -13,11 +13,7 @@ header section {
   border-bottom: 1px solid rgba(192,16,8,0.5);
   z-index: 100;
 }
-header section a {
-  right: 10%;
-  position: fixed;
-  text-decoration: none;
-}
+header section a { right: 10%; position: fixed; }
 header section a#heading {
   top: 24px;
   color: rgba(16,0,0,0.5);
@@ -58,7 +54,6 @@ header nav {
 header nav a {
   color: #ccc;
   padding: 8px 20px;
-  text-decoration: none;
   font: 16px Verdana, Geneva, sans-serif;
 }
 header nav a:hover {

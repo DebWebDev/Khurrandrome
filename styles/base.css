@@ -7,6 +7,7 @@ body {
   margin: auto;
   background: url(../img/bodyBG.jpg) repeat;
 }
+a { text-decoration: none; }
 aside {
   height: 67%;
   width: 320px;
@@ -21,7 +22,9 @@ article {
   padding: 96px 0;
   margin-right: 10%;
   position: relative;
-  font: 12px/20px Verdana, Geneva, sans-serif;
+  font: 16px/24px Verdana, Geneva, sans-serif;
   text-indent: 80px;
   text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
 }
+article p { vertical-align: middle; }
+article a { color: #c33; }
